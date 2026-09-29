@@ -11,4 +11,4 @@
 | [#5](https://github.com/Zefeld/qr-code-generator-srs/issues/5) | Подготовить русскоязычный адаптивный интерфейс | Дизайн, Разработка | [05-interface.md](05-interface.md) |
 | [#6](https://github.com/Zefeld/qr-code-generator-srs/issues/6) | Проверить ошибки, приватность и скорость | Тестирование, Документация | [06-quality.md](06-quality.md) |
 
-После создания первой страницы [Wiki](https://github.com/Zefeld/qr-code-generator-srs/wiki/Техническое-задание) ссылки заработают в обе стороны.
+[Техническое задание в Wiki](https://github.com/Zefeld/qr-code-generator-srs/wiki/Техническое-задание) содержит ссылки на все шесть задач; каждая Issue ссылается обратно на ТЗ.
