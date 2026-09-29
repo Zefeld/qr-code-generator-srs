@@ -11,3 +11,5 @@
 - [ ] После изменения исходного ввода нельзя скачать ранее созданный файл до повторной генерации.
 
 **Связано с ТЗ:** [раздел 2.4, FR-08 и FR-09](https://github.com/Zefeld/qr-code-generator-srs/wiki/Техническое-задание).
+
+[Копия ТЗ в репозитории](https://github.com/Zefeld/qr-code-generator-srs/blob/main/wiki/Техническое-задание.md).

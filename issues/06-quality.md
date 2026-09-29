@@ -11,3 +11,5 @@
 - [ ] Приложение можно разместить как статические файлы на HTTPS-сервере; генерация работает без серверного API.
 
 **Связано с ТЗ:** [раздел 3, REL-01–REL-03, и раздел 5, TECH-03](https://github.com/Zefeld/qr-code-generator-srs/wiki/Техническое-задание).
+
+[Копия ТЗ в репозитории](https://github.com/Zefeld/qr-code-generator-srs/blob/main/wiki/Техническое-задание.md).

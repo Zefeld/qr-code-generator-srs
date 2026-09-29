@@ -11,3 +11,5 @@
 - [ ] При ошибке генерации показывается сообщение, а предыдущий результат не выдаётся за новый.
 
 **Связано с ТЗ:** [раздел 2.3, FR-05–FR-07](https://github.com/Zefeld/qr-code-generator-srs/wiki/Техническое-задание).
+
+[Копия ТЗ в репозитории](https://github.com/Zefeld/qr-code-generator-srs/blob/main/wiki/Техническое-задание.md).

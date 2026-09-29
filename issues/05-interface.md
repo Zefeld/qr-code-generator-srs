@@ -11,3 +11,5 @@
 - [ ] Приложение открывается без установки и регистрации в средах, перечисленных в TECH-02.
 
 **Связано с ТЗ:** [раздел 4, UI-01–UI-03, и раздел 5, TECH-01–TECH-02](https://github.com/Zefeld/qr-code-generator-srs/wiki/Техническое-задание).
+
+[Копия ТЗ в репозитории](https://github.com/Zefeld/qr-code-generator-srs/blob/main/wiki/Техническое-задание.md).

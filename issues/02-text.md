@@ -11,3 +11,5 @@
 - [ ] При генерации сохраняются регистр, знаки, значимые пробелы и переносы строк исходного текста.
 
 **Связано с ТЗ:** [раздел 2.2, FR-03 и FR-04](https://github.com/Zefeld/qr-code-generator-srs/wiki/Техническое-задание).
+
+[Копия ТЗ в репозитории](https://github.com/Zefeld/qr-code-generator-srs/blob/main/wiki/Техническое-задание.md).
