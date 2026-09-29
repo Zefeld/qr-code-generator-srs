@@ -8,6 +8,6 @@
 
 - [Техническое задание](wiki/Техническое-задание.md) — раздел «Требования» для публикации в GitHub Wiki.
 - [Шесть задач](issues/README.md) — User Stories, критерии приёмки и обратные ссылки на ТЗ.
-- [Порядок публикации](Публикация.md) — создание публичного репозитория, Wiki, Issues и меток.
+- [Состояние публикации](Публикация.md) — что уже размещено и как открыть первую страницу Wiki.
 
-После публикации материалов в GitHub: [Wiki](https://github.com/Zefeld/qr-code-generator-srs/wiki/Техническое-задание) · [Issues](https://github.com/Zefeld/qr-code-generator-srs/issues).
+[Issues на GitHub](https://github.com/Zefeld/qr-code-generator-srs/issues). [Страница Wiki](https://github.com/Zefeld/qr-code-generator-srs/wiki/Техническое-задание) станет доступна после её создания из подготовленного файла.
