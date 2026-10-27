@@ -1,0 +1,252 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1385" height="1047" viewBox="0 0 1385 1047">
+<defs><marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#667085"/></marker></defs>
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,DejaVu Sans,sans-serif;fill:#182230}.title{font-size:23px;font-weight:bold}.sub{font-size:13px}.small{font-size:11px}.label{font-size:12px}</style>
+<text x="24" y="33" class="title">Календарный план генератора QR-кодов</text>
+<text x="24" y="58" class="sub">Вариант 69 · 28.10–01.12.2026 · 25 задач · 88 часов · Исполнитель всех работ Zefeld</text>
+<text x="24" y="81" class="sub">Полосы — плановые дни; стрелки — технологические зависимости finish-to-start. Все задачи запланированы.</text>
+<text x="24" y="115" class="label">Задача</text><text x="325" y="115" class="label">Роль</text><text x="418" y="115" class="label">Часы</text><text x="463" y="115" class="label">После</text>
+<text x="550" y="96" class="small">28.10</text>
+<text x="561.5" y="117" text-anchor="middle" class="small">28</text>
+<line x1="550" x2="550" y1="124" y2="957" stroke="#e5e7eb"/>
+<text x="584.5" y="117" text-anchor="middle" class="small">29</text>
+<line x1="573" x2="573" y1="124" y2="957" stroke="#e5e7eb"/>
+<text x="607.5" y="117" text-anchor="middle" class="small">30</text>
+<line x1="596" x2="596" y1="124" y2="957" stroke="#e5e7eb"/>
+<rect x="619" y="97" width="23" height="860" fill="#f0f2f5"/>
+<text x="630.5" y="117" text-anchor="middle" class="small">31</text>
+<line x1="619" x2="619" y1="124" y2="957" stroke="#e5e7eb"/>
+<rect x="642" y="97" width="23" height="860" fill="#f0f2f5"/>
+<text x="653.5" y="117" text-anchor="middle" class="small">1</text>
+<line x1="642" x2="642" y1="124" y2="957" stroke="#e5e7eb"/>
+<text x="665" y="96" class="small">02.11</text>
+<text x="676.5" y="117" text-anchor="middle" class="small">2</text>
+<line x1="665" x2="665" y1="124" y2="957" stroke="#e5e7eb"/>
+<text x="699.5" y="117" text-anchor="middle" class="small">3</text>
+<line x1="688" x2="688" y1="124" y2="957" stroke="#e5e7eb"/>
+<text x="722.5" y="117" text-anchor="middle" class="small">4</text>
+<line x1="711" x2="711" y1="124" y2="957" stroke="#e5e7eb"/>
+<text x="745.5" y="117" text-anchor="middle" class="small">5</text>
+<line x1="734" x2="734" y1="124" y2="957" stroke="#e5e7eb"/>
+<text x="768.5" y="117" text-anchor="middle" class="small">6</text>
+<line x1="757" x2="757" y1="124" y2="957" stroke="#e5e7eb"/>
+<rect x="780" y="97" width="23" height="860" fill="#f0f2f5"/>
+<text x="791.5" y="117" text-anchor="middle" class="small">7</text>
+<line x1="780" x2="780" y1="124" y2="957" stroke="#e5e7eb"/>
+<rect x="803" y="97" width="23" height="860" fill="#f0f2f5"/>
+<text x="814.5" y="117" text-anchor="middle" class="small">8</text>
+<line x1="803" x2="803" y1="124" y2="957" stroke="#e5e7eb"/>
+<text x="826" y="96" class="small">09.11</text>
+<text x="837.5" y="117" text-anchor="middle" class="small">9</text>
+<line x1="826" x2="826" y1="124" y2="957" stroke="#e5e7eb"/>
+<text x="860.5" y="117" text-anchor="middle" class="small">10</text>
+<line x1="849" x2="849" y1="124" y2="957" stroke="#e5e7eb"/>
+<text x="883.5" y="117" text-anchor="middle" class="small">11</text>
+<line x1="872" x2="872" y1="124" y2="957" stroke="#e5e7eb"/>
+<text x="906.5" y="117" text-anchor="middle" class="small">12</text>
+<line x1="895" x2="895" y1="124" y2="957" stroke="#e5e7eb"/>
+<text x="929.5" y="117" text-anchor="middle" class="small">13</text>
+<line x1="918" x2="918" y1="124" y2="957" stroke="#e5e7eb"/>
+<rect x="941" y="97" width="23" height="860" fill="#f0f2f5"/>
+<text x="952.5" y="117" text-anchor="middle" class="small">14</text>
+<line x1="941" x2="941" y1="124" y2="957" stroke="#e5e7eb"/>
+<rect x="964" y="97" width="23" height="860" fill="#f0f2f5"/>
+<text x="975.5" y="117" text-anchor="middle" class="small">15</text>
+<line x1="964" x2="964" y1="124" y2="957" stroke="#e5e7eb"/>
+<text x="987" y="96" class="small">16.11</text>
+<text x="998.5" y="117" text-anchor="middle" class="small">16</text>
+<line x1="987" x2="987" y1="124" y2="957" stroke="#e5e7eb"/>
+<text x="1021.5" y="117" text-anchor="middle" class="small">17</text>
+<line x1="1010" x2="1010" y1="124" y2="957" stroke="#e5e7eb"/>
+<text x="1044.5" y="117" text-anchor="middle" class="small">18</text>
+<line x1="1033" x2="1033" y1="124" y2="957" stroke="#e5e7eb"/>
+<text x="1067.5" y="117" text-anchor="middle" class="small">19</text>
+<line x1="1056" x2="1056" y1="124" y2="957" stroke="#e5e7eb"/>
+<text x="1090.5" y="117" text-anchor="middle" class="small">20</text>
+<line x1="1079" x2="1079" y1="124" y2="957" stroke="#e5e7eb"/>
+<rect x="1102" y="97" width="23" height="860" fill="#f0f2f5"/>
+<text x="1113.5" y="117" text-anchor="middle" class="small">21</text>
+<line x1="1102" x2="1102" y1="124" y2="957" stroke="#e5e7eb"/>
+<rect x="1125" y="97" width="23" height="860" fill="#f0f2f5"/>
+<text x="1136.5" y="117" text-anchor="middle" class="small">22</text>
+<line x1="1125" x2="1125" y1="124" y2="957" stroke="#e5e7eb"/>
+<text x="1148" y="96" class="small">23.11</text>
+<text x="1159.5" y="117" text-anchor="middle" class="small">23</text>
+<line x1="1148" x2="1148" y1="124" y2="957" stroke="#e5e7eb"/>
+<text x="1182.5" y="117" text-anchor="middle" class="small">24</text>
+<line x1="1171" x2="1171" y1="124" y2="957" stroke="#e5e7eb"/>
+<text x="1205.5" y="117" text-anchor="middle" class="small">25</text>
+<line x1="1194" x2="1194" y1="124" y2="957" stroke="#e5e7eb"/>
+<text x="1228.5" y="117" text-anchor="middle" class="small">26</text>
+<line x1="1217" x2="1217" y1="124" y2="957" stroke="#e5e7eb"/>
+<text x="1251.5" y="117" text-anchor="middle" class="small">27</text>
+<line x1="1240" x2="1240" y1="124" y2="957" stroke="#e5e7eb"/>
+<rect x="1263" y="97" width="23" height="860" fill="#f0f2f5"/>
+<text x="1274.5" y="117" text-anchor="middle" class="small">28</text>
+<line x1="1263" x2="1263" y1="124" y2="957" stroke="#e5e7eb"/>
+<rect x="1286" y="97" width="23" height="860" fill="#f0f2f5"/>
+<text x="1297.5" y="117" text-anchor="middle" class="small">29</text>
+<line x1="1286" x2="1286" y1="124" y2="957" stroke="#e5e7eb"/>
+<text x="1309" y="96" class="small">30.11</text>
+<text x="1320.5" y="117" text-anchor="middle" class="small">30</text>
+<line x1="1309" x2="1309" y1="124" y2="957" stroke="#e5e7eb"/>
+<text x="1343.5" y="117" text-anchor="middle" class="small">1</text>
+<line x1="1332" x2="1332" y1="124" y2="957" stroke="#e5e7eb"/>
+<rect x="18" y="132" width="532" height="33" fill="#f8fafc"/>
+<text x="24" y="154" class="label">#7 Покрытие ТЗ</text>
+<text x="325" y="154" class="label">PM</text><text x="430" y="154" class="label">4</text><text x="463" y="154" class="small">—</text>
+<line x1="18" x2="1367" y1="165" y2="165" stroke="#e5e7eb"/>
+<text x="24" y="187" class="label">#8 Структура проекта</text>
+<text x="325" y="187" class="label">Frontend</text><text x="430" y="187" class="label">2</text><text x="463" y="187" class="small">7</text>
+<line x1="18" x2="1367" y1="198" y2="198" stroke="#e5e7eb"/>
+<rect x="18" y="198" width="532" height="33" fill="#f8fafc"/>
+<text x="24" y="220" class="label">#9 Тестовые строки</text>
+<text x="325" y="220" class="label">QA</text><text x="430" y="220" class="label">2</text><text x="463" y="220" class="small">7</text>
+<line x1="18" x2="1367" y1="231" y2="231" stroke="#e5e7eb"/>
+<text x="24" y="253" class="label">#10 Макеты и состояния</text>
+<text x="325" y="253" class="label">Design</text><text x="430" y="253" class="label">4</text><text x="463" y="253" class="small">7</text>
+<line x1="18" x2="1367" y1="264" y2="264" stroke="#e5e7eb"/>
+<rect x="18" y="264" width="532" height="33" fill="#f8fafc"/>
+<text x="24" y="286" class="label">#11 QR-библиотека</text>
+<text x="325" y="286" class="label">Backend</text><text x="430" y="286" class="label">8</text><text x="463" y="286" class="small">8,9</text>
+<line x1="18" x2="1367" y1="297" y2="297" stroke="#e5e7eb"/>
+<text x="24" y="319" class="label">#12 Каркас и режимы</text>
+<text x="325" y="319" class="label">Frontend</text><text x="430" y="319" class="label">4</text><text x="463" y="319" class="small">8,10</text>
+<line x1="18" x2="1367" y1="330" y2="330" stroke="#e5e7eb"/>
+<rect x="18" y="330" width="532" height="33" fill="#f8fafc"/>
+<text x="24" y="352" class="label">#13 Поле ссылки</text>
+<text x="325" y="352" class="label">Frontend</text><text x="430" y="352" class="label">2</text><text x="463" y="352" class="small">12</text>
+<line x1="18" x2="1367" y1="363" y2="363" stroke="#e5e7eb"/>
+<text x="24" y="385" class="label">#14 Проверка адреса</text>
+<text x="325" y="385" class="label">Backend</text><text x="430" y="385" class="label">4</text><text x="463" y="385" class="small">13,9</text>
+<line x1="18" x2="1367" y1="396" y2="396" stroke="#e5e7eb"/>
+<rect x="18" y="396" width="532" height="33" fill="#f8fafc"/>
+<text x="24" y="418" class="label">#15 Поле текста</text>
+<text x="325" y="418" class="label">Frontend</text><text x="430" y="418" class="label">2</text><text x="463" y="418" class="small">12</text>
+<line x1="18" x2="1367" y1="429" y2="429" stroke="#e5e7eb"/>
+<text x="24" y="451" class="label">#16 Лимит UTF-8</text>
+<text x="325" y="451" class="label">Backend</text><text x="430" y="451" class="label">4</text><text x="463" y="451" class="small">14,15,9</text>
+<line x1="18" x2="1367" y1="462" y2="462" stroke="#e5e7eb"/>
+<rect x="18" y="462" width="532" height="33" fill="#f8fafc"/>
+<text x="24" y="484" class="label">#17 Пустой текст</text>
+<text x="325" y="484" class="label">Backend</text><text x="430" y="484" class="label">2</text><text x="463" y="484" class="small">15,16</text>
+<line x1="18" x2="1367" y1="495" y2="495" stroke="#e5e7eb"/>
+<text x="24" y="517" class="label">#18 QR-кодирование</text>
+<text x="325" y="517" class="label">Backend</text><text x="430" y="517" class="label">8</text><text x="463" y="517" class="small">11,14,16,17</text>
+<line x1="18" x2="1367" y1="528" y2="528" stroke="#e5e7eb"/>
+<rect x="18" y="528" width="532" height="33" fill="#f8fafc"/>
+<text x="24" y="550" class="label">#19 Просмотр</text>
+<text x="325" y="550" class="label">Frontend</text><text x="430" y="550" class="label">4</text><text x="463" y="550" class="small">18,10</text>
+<line x1="18" x2="1367" y1="561" y2="561" stroke="#e5e7eb"/>
+<text x="24" y="583" class="label">#20 Сброс результата</text>
+<text x="325" y="583" class="label">Frontend</text><text x="430" y="583" class="label">4</text><text x="463" y="583" class="small">19</text>
+<line x1="18" x2="1367" y1="594" y2="594" stroke="#e5e7eb"/>
+<rect x="18" y="594" width="532" height="33" fill="#f8fafc"/>
+<text x="24" y="616" class="label">#21 PNG 512 × 512</text>
+<text x="325" y="616" class="label">Backend</text><text x="430" y="616" class="label">8</text><text x="463" y="616" class="small">19,20</text>
+<line x1="18" x2="1367" y1="627" y2="627" stroke="#e5e7eb"/>
+<text x="24" y="649" class="label">#22 Скачивание</text>
+<text x="325" y="649" class="label">Frontend</text><text x="430" y="649" class="label">2</text><text x="463" y="649" class="small">21</text>
+<line x1="18" x2="1367" y1="660" y2="660" stroke="#e5e7eb"/>
+<rect x="18" y="660" width="532" height="33" fill="#f8fafc"/>
+<text x="24" y="682" class="label">#23 Обработка ошибок</text>
+<text x="325" y="682" class="label">Frontend</text><text x="430" y="682" class="label">4</text><text x="463" y="682" class="small">20,22</text>
+<line x1="18" x2="1367" y1="693" y2="693" stroke="#e5e7eb"/>
+<text x="24" y="715" class="label">#24 Доступность</text>
+<text x="325" y="715" class="label">Frontend</text><text x="430" y="715" class="label">4</text><text x="463" y="715" class="small">23,10</text>
+<line x1="18" x2="1367" y1="726" y2="726" stroke="#e5e7eb"/>
+<rect x="18" y="726" width="532" height="33" fill="#f8fafc"/>
+<text x="24" y="748" class="label">#25 Адаптивность</text>
+<text x="325" y="748" class="label">Frontend</text><text x="430" y="748" class="label">2</text><text x="463" y="748" class="small">24,10</text>
+<line x1="18" x2="1367" y1="759" y2="759" stroke="#e5e7eb"/>
+<text x="24" y="781" class="label">#26 Функциональные тесты</text>
+<text x="325" y="781" class="label">QA</text><text x="430" y="781" class="label">4</text><text x="463" y="781" class="small">25,9</text>
+<line x1="18" x2="1367" y1="792" y2="792" stroke="#e5e7eb"/>
+<rect x="18" y="792" width="532" height="33" fill="#f8fafc"/>
+<text x="24" y="814" class="label">#27 Независимое считывание</text>
+<text x="325" y="814" class="label">QA</text><text x="430" y="814" class="label">2</text><text x="463" y="814" class="small">26</text>
+<line x1="18" x2="1367" y1="825" y2="825" stroke="#e5e7eb"/>
+<text x="24" y="847" class="label">#28 Приватность и скорость</text>
+<text x="325" y="847" class="label">QA</text><text x="430" y="847" class="label">2</text><text x="463" y="847" class="small">26,27</text>
+<line x1="18" x2="1367" y1="858" y2="858" stroke="#e5e7eb"/>
+<rect x="18" y="858" width="532" height="33" fill="#f8fafc"/>
+<text x="24" y="880" class="label">#29 Матрица браузеров</text>
+<text x="325" y="880" class="label">QA</text><text x="430" y="880" class="label">2</text><text x="463" y="880" class="small">28</text>
+<line x1="18" x2="1367" y1="891" y2="891" stroke="#e5e7eb"/>
+<text x="24" y="913" class="label">#30 Статический выпуск</text>
+<text x="325" y="913" class="label">Backend</text><text x="430" y="913" class="label">2</text><text x="463" y="913" class="small">29</text>
+<line x1="18" x2="1367" y1="924" y2="924" stroke="#e5e7eb"/>
+<rect x="18" y="924" width="532" height="33" fill="#f8fafc"/>
+<text x="24" y="946" class="label">#31 Итоговая приёмка</text>
+<text x="325" y="946" class="label">PM</text><text x="430" y="946" class="label">2</text><text x="463" y="946" class="small">30</text>
+<line x1="18" x2="1367" y1="957" y2="957" stroke="#e5e7eb"/>
+<path d="M570,148.5 H576 V181.5 H576" fill="none" stroke="#667085" stroke-width="1" opacity="0.64" marker-end="url(#arrow)"/>
+<path d="M570,148.5 H576 V214.5 H599" fill="none" stroke="#667085" stroke-width="1" opacity="0.64" marker-end="url(#arrow)"/>
+<path d="M570,148.5 H576 V247.5 H668" fill="none" stroke="#667085" stroke-width="1" opacity="0.64" marker-end="url(#arrow)"/>
+<path d="M593,181.5 H599 V280.5 H691" fill="none" stroke="#667085" stroke-width="1" opacity="0.64" marker-end="url(#arrow)"/>
+<path d="M616,214.5 H624 V280.5 H691" fill="none" stroke="#667085" stroke-width="1" opacity="0.64" marker-end="url(#arrow)"/>
+<path d="M593,181.5 H599 V313.5 H714" fill="none" stroke="#667085" stroke-width="1" opacity="0.64" marker-end="url(#arrow)"/>
+<path d="M685,247.5 H693 V313.5 H714" fill="none" stroke="#667085" stroke-width="1" opacity="0.64" marker-end="url(#arrow)"/>
+<path d="M731,313.5 H737 V346.5 H737" fill="none" stroke="#667085" stroke-width="1" opacity="0.64" marker-end="url(#arrow)"/>
+<path d="M754,346.5 H760 V379.5 H760" fill="none" stroke="#667085" stroke-width="1" opacity="0.64" marker-end="url(#arrow)"/>
+<path d="M616,214.5 H624 V379.5 H760" fill="none" stroke="#667085" stroke-width="1" opacity="0.64" marker-end="url(#arrow)"/>
+<path d="M731,313.5 H737 V412.5 H829" fill="none" stroke="#667085" stroke-width="1" opacity="0.64" marker-end="url(#arrow)"/>
+<path d="M777,379.5 H783 V445.5 H852" fill="none" stroke="#667085" stroke-width="1" opacity="0.64" marker-end="url(#arrow)"/>
+<path d="M846,412.5 H854 V445.5 H852" fill="none" stroke="#667085" stroke-width="1" opacity="0.64" marker-end="url(#arrow)"/>
+<path d="M616,214.5 H626 V445.5 H852" fill="none" stroke="#667085" stroke-width="1" opacity="0.64" marker-end="url(#arrow)"/>
+<path d="M846,412.5 H852 V478.5 H875" fill="none" stroke="#667085" stroke-width="1" opacity="0.64" marker-end="url(#arrow)"/>
+<path d="M869,445.5 H877 V478.5 H875" fill="none" stroke="#667085" stroke-width="1" opacity="0.64" marker-end="url(#arrow)"/>
+<path d="M708,280.5 H714 V511.5 H898" fill="none" stroke="#667085" stroke-width="1" opacity="0.64" marker-end="url(#arrow)"/>
+<path d="M777,379.5 H785 V511.5 H898" fill="none" stroke="#667085" stroke-width="1" opacity="0.64" marker-end="url(#arrow)"/>
+<path d="M869,445.5 H879 V511.5 H898" fill="none" stroke="#667085" stroke-width="1" opacity="0.64" marker-end="url(#arrow)"/>
+<path d="M892,478.5 H904 V511.5 H898" fill="none" stroke="#667085" stroke-width="1" opacity="0.64" marker-end="url(#arrow)"/>
+<path d="M915,511.5 H921 V544.5 H921" fill="none" stroke="#667085" stroke-width="1" opacity="0.64" marker-end="url(#arrow)"/>
+<path d="M685,247.5 H693 V544.5 H921" fill="none" stroke="#667085" stroke-width="1" opacity="0.64" marker-end="url(#arrow)"/>
+<path d="M938,544.5 H944 V577.5 H990" fill="none" stroke="#667085" stroke-width="1" opacity="0.64" marker-end="url(#arrow)"/>
+<path d="M938,544.5 H944 V610.5 H1013" fill="none" stroke="#667085" stroke-width="1" opacity="0.64" marker-end="url(#arrow)"/>
+<path d="M1007,577.5 H1015 V610.5 H1013" fill="none" stroke="#667085" stroke-width="1" opacity="0.64" marker-end="url(#arrow)"/>
+<path d="M1030,610.5 H1036 V643.5 H1036" fill="none" stroke="#667085" stroke-width="1" opacity="0.64" marker-end="url(#arrow)"/>
+<path d="M1007,577.5 H1013 V676.5 H1059" fill="none" stroke="#667085" stroke-width="1" opacity="0.64" marker-end="url(#arrow)"/>
+<path d="M1053,643.5 H1061 V676.5 H1059" fill="none" stroke="#667085" stroke-width="1" opacity="0.64" marker-end="url(#arrow)"/>
+<path d="M1076,676.5 H1082 V709.5 H1082" fill="none" stroke="#667085" stroke-width="1" opacity="0.64" marker-end="url(#arrow)"/>
+<path d="M685,247.5 H693 V709.5 H1082" fill="none" stroke="#667085" stroke-width="1" opacity="0.64" marker-end="url(#arrow)"/>
+<path d="M1099,709.5 H1105 V742.5 H1151" fill="none" stroke="#667085" stroke-width="1" opacity="0.64" marker-end="url(#arrow)"/>
+<path d="M685,247.5 H693 V742.5 H1151" fill="none" stroke="#667085" stroke-width="1" opacity="0.64" marker-end="url(#arrow)"/>
+<path d="M1168,742.5 H1174 V775.5 H1174" fill="none" stroke="#667085" stroke-width="1" opacity="0.64" marker-end="url(#arrow)"/>
+<path d="M616,214.5 H624 V775.5 H1174" fill="none" stroke="#667085" stroke-width="1" opacity="0.64" marker-end="url(#arrow)"/>
+<path d="M1191,775.5 H1197 V808.5 H1197" fill="none" stroke="#667085" stroke-width="1" opacity="0.64" marker-end="url(#arrow)"/>
+<path d="M1191,775.5 H1197 V841.5 H1220" fill="none" stroke="#667085" stroke-width="1" opacity="0.64" marker-end="url(#arrow)"/>
+<path d="M1214,808.5 H1222 V841.5 H1220" fill="none" stroke="#667085" stroke-width="1" opacity="0.64" marker-end="url(#arrow)"/>
+<path d="M1237,841.5 H1243 V874.5 H1243" fill="none" stroke="#667085" stroke-width="1" opacity="0.64" marker-end="url(#arrow)"/>
+<path d="M1260,874.5 H1266 V907.5 H1312" fill="none" stroke="#667085" stroke-width="1" opacity="0.64" marker-end="url(#arrow)"/>
+<path d="M1329,907.5 H1335 V940.5 H1335" fill="none" stroke="#667085" stroke-width="1" opacity="0.64" marker-end="url(#arrow)"/>
+<rect x="553" y="139" width="17" height="19" rx="3" fill="#325d88"/>
+<rect x="576" y="172" width="17" height="19" rx="3" fill="#325d88"/>
+<rect x="599" y="205" width="17" height="19" rx="3" fill="#325d88"/>
+<rect x="668" y="238" width="17" height="19" rx="3" fill="#325d88"/>
+<rect x="691" y="271" width="17" height="19" rx="3" fill="#325d88"/>
+<rect x="714" y="304" width="17" height="19" rx="3" fill="#287a68"/>
+<rect x="737" y="337" width="17" height="19" rx="3" fill="#287a68"/>
+<rect x="760" y="370" width="17" height="19" rx="3" fill="#287a68"/>
+<rect x="829" y="403" width="17" height="19" rx="3" fill="#287a68"/>
+<rect x="852" y="436" width="17" height="19" rx="3" fill="#287a68"/>
+<rect x="875" y="469" width="17" height="19" rx="3" fill="#287a68"/>
+<rect x="898" y="502" width="17" height="19" rx="3" fill="#287a68"/>
+<rect x="921" y="535" width="17" height="19" rx="3" fill="#287a68"/>
+<rect x="990" y="568" width="17" height="19" rx="3" fill="#946227"/>
+<rect x="1013" y="601" width="17" height="19" rx="3" fill="#946227"/>
+<rect x="1036" y="634" width="17" height="19" rx="3" fill="#946227"/>
+<rect x="1059" y="667" width="17" height="19" rx="3" fill="#946227"/>
+<rect x="1082" y="700" width="17" height="19" rx="3" fill="#946227"/>
+<rect x="1151" y="733" width="17" height="19" rx="3" fill="#946227"/>
+<rect x="1174" y="766" width="17" height="19" rx="3" fill="#65519a"/>
+<rect x="1197" y="799" width="17" height="19" rx="3" fill="#65519a"/>
+<rect x="1220" y="832" width="17" height="19" rx="3" fill="#65519a"/>
+<rect x="1243" y="865" width="17" height="19" rx="3" fill="#65519a"/>
+<rect x="1312" y="898" width="17" height="19" rx="3" fill="#65519a"/>
+<rect x="1335" y="931" width="17" height="19" rx="3" fill="#65519a"/>
+<rect x="24" y="990" width="12" height="12" fill="#325d88"/><text x="42" y="1002" class="small">1. Подготовка и проектирование · до 03.11</text>
+<rect x="354" y="990" width="12" height="12" fill="#287a68"/><text x="372" y="1002" class="small">2. Ввод данных и генерация QR · до 13.11</text>
+<rect x="684" y="990" width="12" height="12" fill="#946227"/><text x="702" y="1002" class="small">3. Экспорт и качество интерфейса · до 23.11</text>
+<rect x="1014" y="990" width="12" height="12" fill="#65519a"/><text x="1032" y="1002" class="small">4. Проверка и выпуск · до 01.12</text>
+</svg>
