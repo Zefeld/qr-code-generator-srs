@@ -6,6 +6,7 @@
   <meta name="description" content="Создавайте QR-коды для ссылок и текста в браузере.">
   <title>Генератор QR-кодов</title>
   <link rel="stylesheet" href="style.css">
+  <script src="validation.js" defer></script>
   <script src="script.js" defer></script>
 </head>
 <body>
@@ -17,7 +18,7 @@
         <div class="section-heading"><div><h2 id="editor-title">Содержимое</h2><p>Выберите тип и введите данные</p></div></div>
         <form id="qr-form" novalidate>
           <fieldset class="mode-switch"><legend>Что закодировать</legend><div class="mode-options"><input type="radio" name="mode" id="mode-link" value="link" checked><label for="mode-link">Ссылка</label><input type="radio" name="mode" id="mode-text" value="text"><label for="mode-text">Текст</label></div></fieldset>
-          <div id="link-field" class="field"><label for="link-input">Адрес ссылки</label><input id="link-input" name="link" type="url" inputmode="url" autocomplete="url" placeholder="https://example.com" aria-describedby="field-hint field-error"><p id="field-hint" class="hint">Поддерживаются ссылки с http:// и https://</p></div>
+          <div id="link-field" class="field"><label for="link-input">Адрес ссылки</label><input id="link-input" name="link" type="text" inputmode="url" autocomplete="url" placeholder="https://example.com" aria-describedby="field-hint field-error"><p id="field-hint" class="hint">Поддерживаются ссылки с http:// и https://</p></div>
           <div id="text-field" class="field" hidden><label for="text-input">Ваш текст</label><textarea id="text-input" name="text" rows="5" placeholder="Текст для QR-кода" aria-describedby="text-hint field-error"></textarea><p id="text-hint" class="hint">Можно использовать кириллицу и переносы строк</p></div>
           <p id="field-error" class="error" role="alert" hidden></p>
           <button class="primary" type="submit">Создать QR-код</button>

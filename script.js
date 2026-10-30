@@ -16,11 +16,19 @@ function showMode() {
   linkField.hidden = !isLink;
   textField.hidden = isLink;
   error.hidden = true;
+  document.getElementById('link-input').removeAttribute('aria-invalid');
+  document.getElementById('text-input').removeAttribute('aria-invalid');
   status.textContent = 'Готов к созданию';
 }
 
 modes.forEach((mode) => mode.addEventListener('change', showMode));
 form.addEventListener('submit', (event) => {
   event.preventDefault();
-  status.textContent = 'Генерация будет добавлена на следующем этапе';
+  const field = document.getElementById(currentMode() === 'link' ? 'link-input' : 'text-input');
+  const result = QrValidation.validateInput(currentMode(), field.value);
+  field.setAttribute('aria-invalid', String(!result.ok));
+  error.hidden = result.ok;
+  error.textContent = result.ok ? '' : result.message;
+  status.textContent = result.ok ? 'Данные проверены' : 'Исправьте данные';
+  if (!result.ok) field.focus();
 });
