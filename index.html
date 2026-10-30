@@ -3,11 +3,34 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Создавайте QR-коды для ссылок и текста в браузере.">
   <title>Генератор QR-кодов</title>
   <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
-  <main><h1>Генератор QR-кодов</h1><p>Интерфейс приложения находится в разработке.</p></main>
-  <script src="script.js" defer></script>
+  <header class="topbar"><div class="shell topbar-inner"><a class="brand" href="./" aria-label="Генератор QR-кодов, на главную"><span class="brand-mark" aria-hidden="true">▦</span> QR-код</a><span class="privacy">Всё работает в вашем браузере</span></div></header>
+  <main class="shell workspace">
+    <div class="intro"><h1>Создайте QR-код</h1><p>Для ссылки или текста, которым хотите поделиться.</p></div>
+    <div class="workbench">
+      <section class="editor" aria-labelledby="editor-title">
+        <div class="section-heading"><div><h2 id="editor-title">Содержимое</h2><p>Выберите тип и введите данные</p></div></div>
+        <form id="qr-form" novalidate>
+          <fieldset class="mode-switch"><legend>Что закодировать</legend><div class="mode-options"><input type="radio" name="mode" id="mode-link" value="link" checked><label for="mode-link">Ссылка</label><input type="radio" name="mode" id="mode-text" value="text"><label for="mode-text">Текст</label></div></fieldset>
+          <div id="link-field" class="field"><label for="link-input">Адрес ссылки</label><input id="link-input" name="link" type="url" inputmode="url" autocomplete="url" placeholder="https://example.com" aria-describedby="field-hint field-error"><p id="field-hint" class="hint">Поддерживаются ссылки с http:// и https://</p></div>
+          <div id="text-field" class="field" hidden><label for="text-input">Ваш текст</label><textarea id="text-input" name="text" rows="5" placeholder="Текст для QR-кода" aria-describedby="text-hint field-error"></textarea><p id="text-hint" class="hint">Можно использовать кириллицу и переносы строк</p></div>
+          <p id="field-error" class="error" role="alert" hidden></p>
+          <button class="primary" type="submit">Создать QR-код</button>
+        </form>
+      </section>
+      <section class="preview" aria-labelledby="preview-title">
+        <div class="section-heading"><div><h2 id="preview-title">Предпросмотр</h2><p>Ваш код появится здесь</p></div></div>
+        <div class="preview-stage"><div class="empty-state" id="empty-state"><span class="empty-symbol" aria-hidden="true">▦</span><p>Пока здесь пусто</p><span>Введите данные и создайте QR-код</span></div><canvas id="qr-canvas" width="512" height="512" aria-label="Созданный QR-код" hidden></canvas></div>
+        <div class="preview-footer"><p id="result-status" role="status" aria-live="polite">Готов к созданию</p><button id="download-button" class="secondary" type="button" disabled>Скачать PNG</button></div>
+      </section>
+    </div>
+    <p class="footnote">Данные остаются на вашем устройстве.</p>
+  </main>
+  <noscript><p class="noscript">Для создания QR-кодов включите JavaScript в браузере.</p></noscript>
 </body>
 </html>
