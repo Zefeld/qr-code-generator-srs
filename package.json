@@ -1,0 +1,8 @@
+{
+  "name": "qr-code-generator-srs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Локальный генератор QR-кодов для ссылок и текста",
+  "scripts": { "test": "node --test tests/*.test.js" },
+  "engines": { "node": ">=20" }
+}
