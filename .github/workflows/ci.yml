@@ -1,0 +1,24 @@
+name: CI - Code Validation
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Validate application files
+        run: test -f index.html && test -f style.css && test -f script.js
+      - name: Check JavaScript syntax
+        run: node --check script.js
+      - name: Run automated checks
+        run: if [ -f package-lock.json ]; then npm ci && npm test; else echo 'No test suite yet'; fi
