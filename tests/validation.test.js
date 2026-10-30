@@ -4,10 +4,10 @@ const assert = require('node:assert/strict');
 const { validateInput } = require('../validation.js');
 
 test('validates URLs without silently changing the input', () => {
-  for (const value of ['https://example.com/a?q=X#Part', 'HTTP://EXAMPLE.COM/A']) {
+  for (const value of ['https://example.com/a?q=X#Part', 'HTTP://EXAMPLE.COM/A', 'https://:secret@example.com/']) {
     assert.deepEqual(validateInput('link', value).value, value);
   }
-  for (const value of ['', 'https://', 'ftp://example.com', ' https://example.com', 'https://example.com/a b', 'https://example.com/\n']) {
+  for (const value of ['', 'https://', 'ftp://example.com', 'https://:8080/', ' https://example.com', 'https://example.com/a b', 'https://example.com/\n']) {
     assert.equal(validateInput('link', value).ok, false, JSON.stringify(value));
   }
 });

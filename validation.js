@@ -16,7 +16,7 @@
         const parsed = new URL(value);
         if (!parsed.hostname || !/^https?:$/.test(parsed.protocol)) throw new TypeError('Invalid host');
         const authority = value.match(/^https?:\/\/([^/?#]*)/i)?.[1] || '';
-        if (!authority || authority.startsWith(':') || authority.endsWith('@')) throw new TypeError('Invalid authority');
+        if (!authority || authority.endsWith('@')) throw new TypeError('Invalid authority');
       } catch (_) {
         return { ok: false, message: 'Укажите корректный адрес с именем хоста.', bytes };
       }
