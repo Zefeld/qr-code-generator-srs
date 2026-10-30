@@ -3,6 +3,15 @@
   "version": "1.0.0",
   "private": true,
   "description": "Локальный генератор QR-кодов для ссылок и текста",
-  "scripts": { "test": "node --test tests/*.test.js" },
-  "engines": { "node": ">=20" }
+  "scripts": {
+    "test": "node --test tests/*.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "jsqr": "1.4.0",
+    "playwright-core": "1.56.1",
+    "pngjs": "7.0.0"
+  }
 }
