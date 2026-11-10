@@ -22,3 +22,5 @@ jobs:
         run: node --check script.js
       - name: Run automated checks
         run: if [ -f package-lock.json ]; then npm ci && npm test; else echo 'No test suite yet'; fi
+      - name: Check SQLite model
+        run: python3 -m unittest discover -s tests -p 'test_database.py' -v
