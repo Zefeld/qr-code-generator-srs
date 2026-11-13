@@ -95,7 +95,7 @@ form.addEventListener('submit', (event) => {
     code.addData(result.value, 'Byte');
     code.make();
     drawCode(code);
-    currentResult = { mode, value: result.value };
+    currentResult = { mode, value: result.value, matrix: code };
     emptyState.hidden = true;
     canvas.hidden = false;
     download.disabled = false;
