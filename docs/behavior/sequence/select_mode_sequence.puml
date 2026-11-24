@@ -1,0 +1,24 @@
+@startuml
+!include _style.iuml
+title SQ-01 · Смена режима и редактирование
+actor "Пользователь" as User
+boundary "Интерфейс" as UI
+control "script.js" as App
+participant "Состояние\nрезультата" as State
+autonumber
+
+alt Выбран другой режим
+  User -> UI : Выбирает «Ссылка» или «Текст»
+  UI -> App : Событие change
+  App -> App : showMode() читает активный режим
+  App -> UI : Показывает нужное поле и скрывает второе
+else Изменено значение поля
+  User -> UI : Редактирует ссылку или текст
+  UI -> App : Событие input
+end
+App -> UI : clearError() сбрасывает сообщение об ошибке
+App -> App : invalidateResult()
+App -> State : generation += 1\ncurrentResult = null
+App -> UI : Скрывает QR и отключает «Скачать PNG»
+UI --> User : Новое поле или значение готово к генерации
+@enduml

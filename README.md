@@ -48,3 +48,9 @@
 - [Схема с индексами](database/schema.sql), [демонстрационные данные](database/seed_data.sql) и [нормализация до 3NF](database/normalization.md).
 
 Для проверки: `sqlite3 demo.sqlite < database/schema.sql`, затем `sqlite3 demo.sqlite < database/seed_data.sql`. В каждом соединении SQLite необходимо включать `PRAGMA foreign_keys=ON`.
+
+## Лабораторная работа 5 — моделирование поведения
+
+- [Диаграмма вариантов использования (PNG)](docs/use_case/use_case_diagram.png).
+- [Четыре диаграммы последовательности и описание сценариев](docs/behavior/README.md).
+- [Моделирование поведения в Wiki](https://github.com/Zefeld/qr-code-generator-srs/wiki/Моделирование-поведения).

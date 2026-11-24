@@ -1,0 +1,26 @@
+@startuml
+!include _style.iuml
+title SQ-02 · Успешная генерация и просмотр QR-кода
+actor "Пользователь" as User
+boundary "Форма и предпросмотр" as UI
+control "script.js" as App
+participant "validation.js" as Validation
+participant "qrcode-generator" as QR
+participant "Canvas 2D" as Canvas
+autonumber
+
+User -> UI : Вводит ссылку или текст,\nнажимает «Создать QR-код»
+UI -> App : Событие submit
+App -> App : Отменяет отправку формы.\nСбрасывает результат и ошибку
+App -> Validation : validateInput(mode, value)
+Validation -> Validation : Считает байты UTF-8\nи проверяет ввод
+Validation --> App : ok: true, исходная строка
+App -> QR : qrcode(0, 'M')
+App -> QR : addData(value, 'Byte'), make()
+QR --> App : Матрица QR-кода\n(версия выбрана автоматически)
+App -> App : drawCode(code)
+App -> Canvas : Рисует белый фон и чёрные модули.\nОставляет поле от четырёх модулей
+App -> App : Сохраняет в currentResult\nрежим, строку и матрицу
+App -> UI : Показывает Canvas\nи включает скачивание
+UI --> User : Видит QR-код и статус готовности
+@enduml

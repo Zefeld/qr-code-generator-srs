@@ -1,0 +1,34 @@
+@startuml
+!include _style.iuml
+title SQ-04 · Скачивание актуального PNG
+actor "Пользователь" as User
+boundary "Интерфейс" as UI
+control "script.js" as App
+participant "Canvas 2D" as Canvas
+participant "Браузер" as Browser
+autonumber
+
+note over User, App
+  Кнопка доступна после успешной генерации.
+end note
+User -> UI : Нажимает «Скачать PNG»
+UI -> App : Событие click
+App -> App : Запоминает текущие generation и mode
+App -> Canvas : toBlob(callback, 'image/png')
+
+alt toBlob() вызывает исключение
+  Canvas --> App : Исключение
+  App -> UI : Показывает ошибку сохранения
+else toBlob() запускает создание PNG
+  Canvas --> App : callback(blob или null)
+  alt Снимок результата устарел
+    App -> App : Завершает обработчик без скачивания
+  else Изображение не получено (blob == null)
+    App -> UI : Показывает ошибку сохранения
+  else Результат актуален и PNG готов
+    App -> Browser : Создаёт временный URL и запускает скачивание
+    Browser --> User : qr-link.png или qr-text.png (512 × 512)
+    App -> Browser : Освобождает временный URL через 1 секунду
+  end
+end
+@enduml

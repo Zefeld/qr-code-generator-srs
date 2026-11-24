@@ -1,0 +1,31 @@
+@startuml
+!include _style.iuml
+title SQ-03 · Ошибки ввода и генерации
+actor "Пользователь" as User
+boundary "Форма и предпросмотр" as UI
+control "script.js" as App
+participant "validation.js" as Validation
+participant "Библиотека QR\nи Canvas 2D" as QR
+autonumber
+
+User -> UI : Нажимает «Создать QR-код»
+UI -> App : Событие submit
+App -> App : Сбрасывает старый результат и ошибку
+App -> Validation : validateInput(mode, value)
+alt Ввод отклонён
+  Validation --> App : ok: false, сообщение о причине
+  App -> UI : showError(message, field)
+  UI -> UI : Помечает поле и возвращает ему фокус
+  UI --> User : Показывает причину, оставляет ввод для исправления
+else Ввод допустим, но кодирование или рисование завершилось сбоем
+  Validation --> App : ok: true, исходная строка
+  App -> QR : Формирует и рисует QR-код
+  QR --> App : Исключение
+  App -> App : invalidateResult()
+  App -> UI : showError(сообщение о сбое генерации)
+  UI --> User : Предлагает повторить попытку
+end
+note over UI, App
+  В обоих случаях QR-код скрыт, скачивание недоступно.
+end note
+@enduml

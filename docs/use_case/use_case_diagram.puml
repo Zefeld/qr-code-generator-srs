@@ -1,0 +1,41 @@
+@startuml
+!pragma layout smetana
+skinparam defaultFontName Dialog
+skinparam shadowing false
+skinparam ArrowColor #34465F
+skinparam actor {
+  BackgroundColor #FFFFFF
+  BorderColor #34465F
+}
+skinparam usecase {
+  BackgroundColor #EEF5FF
+  BorderColor #43658C
+}
+skinparam rectangle {
+  BackgroundColor #FAFCFF
+  BorderColor #34465F
+}
+
+title Генератор QR-кодов в браузере
+actor "Пользователь" as User
+
+rectangle " " as Generator {
+  usecase "Выбрать режим\n«Ссылка» или «Текст»" as Mode
+  usecase "Ввести ссылку\nили текст" as Input
+  usecase "Создать QR-код" as Generate
+  usecase "Проверить ввод" as Validate
+  usecase "Просмотреть QR-код" as Preview
+  usecase "Получить сообщение\nоб ошибке ввода" as Invalid
+  usecase "Скачать PNG\n[есть актуальный QR-код]" as Export
+}
+
+User -- Mode
+User -- Input
+User -- Generate
+User -- Preview
+User -- Export
+Generate ..> Validate : <<include>>
+Invalid ..> Validate : <<extend>>\n[ввод отклонён]
+Preview ..> Generate : <<extend>>\n[код успешно создан]
+
+@enduml
